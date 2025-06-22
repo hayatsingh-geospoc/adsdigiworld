@@ -8,10 +8,50 @@
     <script defer src="./main.js"></script>
   </head>
   <body class="bg-white text-gray-900 font-sans">
+    <!-- Navigation Header -->
+    <nav
+      class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm"
+    >
+      <div class="container mx-auto px-4 py-3">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-3">
+            <img
+              src="./assets/company logo/adsdigiworld-logo.jpeg"
+              alt="Adsdigiworld Logo"
+              class="h-12 w-auto rounded-lg shadow-sm"
+            />
+            <span class="text-xl font-bold text-gray-800">Adsdigiworld</span>
+          </div>
+          <div class="hidden md:flex space-x-6">
+            <a
+              href="#hero"
+              class="text-gray-600 hover:text-blue-600 transition-colors"
+              >Home</a
+            >
+            <a
+              href="#about"
+              class="text-gray-600 hover:text-blue-600 transition-colors"
+              >About</a
+            >
+            <a
+              href="#services"
+              class="text-gray-600 hover:text-blue-600 transition-colors"
+              >Services</a
+            >
+            <a
+              href="#contact"
+              class="text-gray-600 hover:text-blue-600 transition-colors"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <!-- Hero Section -->
     <section
       id="hero"
-      class="relative min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-blue-600 to-purple-700 text-white overflow-hidden"
+      class="relative min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-blue-600 to-purple-700 text-white overflow-hidden pt-16"
     >
       <div
         class="absolute inset-0 w-full h-full bg-no-repeat bg-center bg-cover opacity-20"
