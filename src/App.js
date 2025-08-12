@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
+  console.log('App');
   useEffect(() => {
     // Scroll/fade-in animation
     const observer = new IntersectionObserver(
