@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/adsdigiworld/static/css/main.df666aad.css",
+    "main.js": "/adsdigiworld/static/js/main.52927437.js",
+    "index.html": "/adsdigiworld/index.html",
+    "main.df666aad.css.map": "/adsdigiworld/static/css/main.df666aad.css.map",
+    "main.52927437.js.map": "/adsdigiworld/static/js/main.52927437.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df666aad.css",
+    "static/js/main.52927437.js"
+  ]
+}
