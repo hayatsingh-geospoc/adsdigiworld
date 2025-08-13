@@ -2,6 +2,7 @@
   "name": "adsdigiworld",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://hayatsingh-geospoc.github.io/adsdigiworld",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -22,7 +23,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build-css": "tailwindcss -i ./src/index.css -o ./src/output.css --watch"
+    "build-css": "tailwindcss -i ./src/index.css -o ./src/output.css --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
